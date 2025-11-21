@@ -36,7 +36,13 @@ const Testimonial = () => {
 
   return (
     <div className="t-wrapper" id="testimonial">
-      <div className="t-heading">
+      <div className="t-heading" style={{ 
+        display: 'flex', 
+        flexDirection: 'column', 
+        alignItems: 'center', 
+        textAlign: 'center',
+        width: '100%'
+      }}>
         <span>Clients always get </span>
         <span>Exceptional Work </span>
         <span>from me...</span>

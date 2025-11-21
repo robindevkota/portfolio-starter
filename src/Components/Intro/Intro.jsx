@@ -42,7 +42,10 @@ const Intro = () => {
           <a href="https://github.com/Royal-fighter">
           <img src={Github} alt="" />
           </a>
+          <a href="https://www.facebook.com/profile.php?id=100084526347483">
+
           <img src={LinkedIn} alt="" />
+          </a>
           <a href="https://www.instagram.com/robin.devkota/" >
           <img src={Instagram} alt="" />
           </a>

@@ -9,7 +9,7 @@ const theme = useContext(themeContext);
   return (
    <div className="experience" id='experience'>
     <div className="achivement">
-        <div className="circle"style={{color: darkMode?'var(--orange)':''}}>3+</div>
+        <div className="circle"style={{color: darkMode?'var(--orange)':''}}>6+</div>
         <span style={{color: darkMode?'white':''}}>Months</span>
         <span>Experience</span>
     </div>

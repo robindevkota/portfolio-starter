@@ -16,20 +16,16 @@ function Link() {
 <br/>
 <hr/>
 
-<div className="div">
+<div >
 <span >Visit! this Youtube Channel <br/></span>
 <span>For Original Reference of this <br/>Website</span>
+<h4>ZAINKEEPSCODE</h4>
 <br/>
 <br/>
 
 </div>
-<div className="div">
-<a href="https://github.com/Royal-fighter"> 
 
-<Youtube color="Orange" size={"3rem"} />
-  </a>
-  <a href="https://github.com/Royal-fighter"> click</a>
-</div>
+
 </div>
   )
 }

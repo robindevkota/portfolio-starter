@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-// import Resume from './resume.pdf';
+import Resume from "./my-resume.pdf";
 
 const Services = () => {
   // context
@@ -26,12 +26,15 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispumnot so much fun it too bad Lorem
+        <span>
+          I specialize in building modern web applications using React, Node.js,
+          Express, and MongoDB.
           <br />
-          ispum is not so much fun it too bad
-        </spane>
-        <a href={""} download>
+          Experienced with Redux, React Hooks, and component libraries like
+          Material-UI & Ant Design to create clean and interactive user
+          interfaces.
+        </span>
+        <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

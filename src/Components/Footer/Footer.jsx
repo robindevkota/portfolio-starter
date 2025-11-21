@@ -9,6 +9,7 @@ import Gitub from "@iconscout/react-unicons/icons/uil-github";
 const Footer = () => {
   return (
     <div className="footer">
+  
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
         <span>robindevkta0@gmail.com</span>
@@ -18,7 +19,9 @@ const Footer = () => {
 
           <Insta color="white" size={"3rem"} />
           </a>
+          <a href="https://www.facebook.com/profile.php?id=100084526347483">
           <Facebook color="white" size={"3rem"} />
+            </a>
           <a href="https://github.com/Royal-fighter"> 
 
           <Gitub color="white" size={"3rem"} />

@@ -1,3 +1,4 @@
+
 import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
@@ -8,7 +9,7 @@ import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
-import LinkedIn from "../../img/facebook.png";
+import Facebook from "../../img/facebook.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -44,7 +45,7 @@ const Intro = () => {
           </a>
           <a href="https://www.facebook.com/profile.php?id=100084526347483">
 
-          <img src={LinkedIn} alt="" />
+          <img src={Facebook} alt="" />
           </a>
           <a href="https://www.instagram.com/robin.devkota/" >
           <img src={Instagram} alt="" />
